@@ -1,0 +1,62 @@
+body {
+    background-image: url("../../../public/img/fond-site.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre{
+    margin: 20px 0;
+    text-align: center;
+    font-family: Lobster;
+}
+
+h1{
+    font-size: 58px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.searchBar{
+    width: 75%;
+}
+
+.allList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 95%;
+    height: 525px;
+}
+
+.resultsCol{
+    flex-basis: 40%;
+}
+
+#resultListSong{
+    overflow-y: scroll;
+    scrollbar-color: white #F0C3CB;
+    height: 50vh;
+}
+
+.playlistCol{
+    flex-basis: 40%;
+}
+
+.titreCol{
+    width: 100%;
+    font-size: 22px;
+    margin: 14px 0;
+    display: inline-block;
+    text-align: center;
+    font-family: Rajdhani;
+    font-weight: 600;
+}

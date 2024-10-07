@@ -1,0 +1,47 @@
+.cardSong{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 3px 5px 3px 0;
+    backdrop-filter: blur(15px);
+}
+
+img{
+    width: 50px;
+}
+
+#infoTrack{
+    justify-self: start;
+    flex-grow: 2;
+}
+
+#titreTrack{
+    font-family: "Fira Sans";
+    font-weight: bold;
+}
+
+#artistTrack{
+    font-family: "Fira Sans";
+}
+
+
+#albumTrack{
+    font-family: "Fira Sans";
+    font-weight: 200;
+}
+
+.addButton{
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.deleteButton{
+    border-radius: 50%;
+    border: none;
+}
